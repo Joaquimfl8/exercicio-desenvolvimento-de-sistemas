@@ -20,4 +20,4 @@ a: int = int(input("Insira o valorA: "))
 b: int = int(input("Insira o valorB: "))
 
 for i, v in FUNCOES.items():
-    print(f"{i}:", v(a, b))
+    print(f"{i}: {v(a, b)}")
